@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<div class="breadcrumb"><a href="/">Posts</a> <span class="divider">›</span> {{ page.title }}</div>
+
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }} — {% for category in page.categories %} <span class="category">{{ category }}</span> {% endfor %}</p>
+
+{{content}}

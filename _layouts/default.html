@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <title>{{ page.title }}</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+  <style>
+    /* to help render in an unconfusing way if CSS cannot be loaded */
+    #mobile-navigation {
+      display: none;
+    }
+  </style>
+
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300|Open+Sans:300|Open+Sans+Condensed:300">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+	<nav>{% include /menu.html %}</nav>
+
+	<hr />
+	
+	{{ content }}
+
+</body>
+</html>
