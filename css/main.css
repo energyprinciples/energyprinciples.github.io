@@ -7,7 +7,14 @@
 		padding: 0; 
 		display: inline-block; 
 	}
-	
+
+	h2 { 
+		padding-bottom: 0.3em;
+		margin: 12px 0 12px 0; 
+		font-size: 1.5em;
+		border-bottom: 1px solid #eaecef;
+	}
+
 	hr { 
 		background-color: #666; 
 		height: 6px; 
@@ -22,13 +29,8 @@
 		display: inline-block;
 		vertical-align: top;
 	}
-	
-	.box h2 { 
-		padding-bottom: 0.3em;
-		margin: 12px 0 12px 0; 
-		font-size: 1.5em;
-		border-bottom: 1px solid #eaecef;
-	}
-	
+
+	.box h2 { padding: 0; margin: 12px 0 12px 0; }
+
 	.box li { margin: 0 0 7px 20px; }
 	
