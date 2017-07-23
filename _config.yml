@@ -1,1 +1,42 @@
+title: "Energy Principles"
+description: "website description"
 
+# the base hostname & protocol for your site, e.g. http://example.com
+
+# Conversion
+markdown: kramdown
+
+# theme
+#theme: minima
+
+gems:
+ - jekyll-redirect-from
+
+collections:
+  management:
+    output: true
+    permalink: /:name
+  efficiency:
+    output: true
+    permalink: /:name
+  generation:
+    output: true
+    permalink: /:name
+
+plugins:
+  - jekyll-feed
+
+# Serving
+host:    0.0.0.0
+url: "http://www.energyprinciples.co.uk/"
+baseurl: ""
+
+# The following items will not be processed, by default.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
