@@ -23,7 +23,12 @@
 		vertical-align: top;
 	}
 	
-	.box h2 { padding: 0; margin: 12px 0 12px 0; }
+	.box h2 { 
+		padding-bottom: 0.3em;
+		margin: 12px 0 12px 0; 
+		font-size: 1.5em;
+		border-bottom: 1px solid #eaecef;
+	}
 	
 	.box li { margin: 0 0 7px 20px; }
 	
