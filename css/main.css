@@ -30,7 +30,7 @@
 		vertical-align: top;
 	}
 
-	.box h2 { padding: 0; margin: 12px 0 12px 0; }
+	.box h2 { padding: 0; margin: 12px 0 12px 0; border: none; }
 
 	.box li { margin: 0 0 7px 20px; }
 	
