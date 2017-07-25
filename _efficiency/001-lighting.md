@@ -22,19 +22,27 @@ There are four different types of light output:
 
 1.	Incandescent – tungsten bulbs + halogens
 2.	Discharge – fluorescent + metal halide etc.
-3.	LED
-4.	Induction – rarely seen, but actually quite efficient
+3.	Induction – rarely seen, but actually quite efficient
+4.	LED - very efficient
 
-### Tungsten bulbs 
-These are generally quite inefficient, wasting a lot of energy through heat.
+### 1. Incandescent Lamps
 
-### Halogens 
+Incandescnent lamps are based on electricity passing through a small filament, creating light and, as a side-product, heat.
+The two most common types of incandescent lamps are tungsten bulbs and hallogens.
 
-### Compact Fluorescents
+Tungsten bulbs are generally quite inefficient, wasting a lot of energy through heat. They also don't have a particularly long life span. They often darken with time, due to evaporated tungsten condensing on the inner surface of the glass. Basically, these should become a thing of the past.
 
-### Fluorescent tubes
+Halogen lamps contain a filament within a halogen gas, which increases the lifetime of the bulb and precents dthe darkening of the bulb. They can operate at a slightly higher temperatures and as a result are better in confined spaces and are usually qute smal in size.
 
-Sizes of fluorescent tubes:
+### 2. Discharge Lamps
+
+There are several types of dischage lamps. Thes include fluorescent lamps, mercury vapour lamps, metal halide lamps, low pressure sodium lamps and SONs.
+
+Compact Fluorescents
+
+Fluorescent tubes
+
+Sizes of fluorescent tubes are named as:
 -	`T12` = `1.5 inch` = 
 -	`T8` = `1` inch = 
 -	`T5` = `0.5` inch = 
@@ -44,21 +52,35 @@ Sizes of fluorescent tubes:
 -	Due to kinetic theory
 
 Fluorescent tubes have a triphosphor and a phosphor coating…
-Ballasts = choke in US
+Ballasts = choke in US 
+Ballasts control the electricity going in to the fluorescent tube. They often use an additional 10% of electricity on top of the lamp wattage...    can have magnetic and electronic ballasts. Electronic ballasts....
 
 
-### Metal halides
+Metal halides
 
-### Discharge lamps
+Low pressure sodium lamps
 
-### Induction lamps
+SON lamps are
 
+### 3. Induction lamps
+
+### 4. LED
+
+LEDs are the latest rage in terms of lighting and energy efficicency, more generally.
+LED is an abbreviation of Light Emitting Diode. This means that 
+
+## *Insert table of common wattages, 
 
 ## Calculating lighting energy savings
 
-Once you know the type of lamp you can, you can estimate what you might potentially use. 
+Once you know the type of lamp you have, you can estimate what you might potentially use. 
 
 This should involve a mixture of more efficient lighting and better controls.
+Here is a link to my lighting calculations page:
+
+Calculations look at: type of lamp, wattage, number of lamps and gives potential savings.
+
+*insert link to seperate page with calculations
 
 ## Lighting glossary
 
