@@ -1,25 +1,57 @@
+
 	html { 
-		font-family: "Roboto"; 
+		
 	}
-
-	ul { 
-		margin: 0; 
-		padding: 0; 
-		display: inline-block; 
+	
+	body {
+	  position: relative;
+	  font-family: "Roboto";
+	  font-weight: 300;
 	}
-
-	h2 { 
-		padding-bottom: 0.3em;
-		margin: 12px 0 12px 0; 
-		font-size: 1.5em;
+	
+	h1 {
+		margin: 60px 0 20px 0;
+		padding: 0 0 12px 0; 
 		border-bottom: 1px solid #eaecef;
 	}
+	
+	h2 { 
+		margin: 32px 0 12px 0; 
+		padding-bottom: 0.3em;
+		font-size: 1.5em;
+	}
+	
+	h1:first-child { margin: 0 0 20px 0; }
 
-	hr { 
+	/*hr { 
 		background-color: #666; 
 		height: 6px; 
 		border: 0;
+	}*/
+	
+	code {
+		padding: 0;
+		padding: 3px 5px 3px 6px;
+		margin: 0;
+		font-size: 85%;
+		background-color: rgba(27,31,35,0.05);
+		border-radius: 4px;
 	}
+	
+	nav {
+	}
+	
+	blockquote { margin: 40px 30px 40px 30px; font-size: inherit; background-color: #fafafa; }
+	blockquote ul { margin: 0; padding: 0; }
+	blockquote ul { list-style-type: none; }
+	blockquote ul > li { position: relative; padding-left: 20px; font-style: italic; }
+	blockquote ul > li:before { content: "—"; position: absolute; left: -0px; }
+	
+	#pageContainer {
+		min-height: 100vh;
+	}
+	
+	.anchorjs-link:hover { text-decoration: none; }
 	
 	.box { 
 		border: 1px solid #ccc; 
@@ -33,4 +65,57 @@
 	.box h2 { padding: 0; margin: 12px 0 12px 0; border: none; }
 
 	.box li { margin: 0 0 7px 20px; }
+
+	.container {
+		position: relative; 
+		margin: auto; 
+		max-width: 1200px;
+	}
+	
+	.content { 
+		padding: 30px; 
+		font-size: 17px;
+		line-height: 33px;
+		xbackground: #efefef;
+		word-wrap: break-word;
+		word-break: break-word;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+	}
+
+	.contentToc {
+		padding: 40px 0 0 0; 
+	}
+	
+	.toc {
+	}
+	
+	.footer { 
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-top: 100px;
+		color: #99979c;
+		text-align: left;
+		background-color: #2a2730;
+	}
+	
+	.editThisPage {
+		background-color: #fafafa;
+		border: 1px solid #efefef;
+		margin: 10px 60px 10px 40px;
+		padding: 40px;
+		text-align: center;
+		border-radius: 3px;
+	}
+	
+	.editThisPage i {
+		font-size: 48px;
+	}
+	
+	.footer a { 
+		color: #fff; 
+	}
+	
+	
+	
 	

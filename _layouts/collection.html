@@ -2,4 +2,27 @@
 layout: default
 ---
 
-{{content}}
+<div class="container row">
+
+	<div class="content col-md-9">
+		{{content}}
+	</div>
+
+	<div class="contentToc col-md-3">
+		<div id="toc"></div>		
+	</div>
+
+</div>
+
+<div class="container row">
+
+	<div class="content col-md-9">
+		<div class="editThisPage">
+			<p><i class="fa fa-github" aria-hidden="true"></i><br /><a target="_blank" href="https://github.com/energyprinciples/energyprinciples.github.io/tree/master/{{page.path}}">View or edit this page on GitHub</a></p>
+			<p>Please read our <a href="/creative-commons">usage</a> and <a href="/contributing">contribution</a> guidelines.</p>
+		</div>
+	</div>
+
+	<div class="contentToc col-md-3"></div>
+	
+</div>

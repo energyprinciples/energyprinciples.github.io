@@ -1,20 +1,20 @@
-<ul>
-<div class="box">
-	<h2>Home</h2>
-	<li><a href="/">Home</a></li>
-</div>
+<ul class="nav2">
 
-{% for collection in site.collections %}
-<div class="box">
+	<div class="box">
+		<div>Home</div>
+		<li><a href="/">Home</a></li>
+	</div>
 
-	<h2>Energy {{collection.label | capitalize}}</h2>
-	
-	{% for doc in collection.docs %}
+	{% for collection in site.collections %}
+	<div class="box">
 
-		<li><a href="{{doc.url}}">{{doc.title}}</a></li>
-
+		<div>Energy {{collection.label | capitalize}}</div>
+		
+		{% for doc in collection.docs %}
+			<li><a href="{{doc.url}}">{{doc.title}}</a></li>
+		{% endfor %}
+		
+	</div>
 	{% endfor %}
-	
-</div>
-{% endfor %}
+
 </ul>

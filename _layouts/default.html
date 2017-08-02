@@ -3,38 +3,106 @@
 <html lang="en">
 <head>
 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title }}</title>
 
-  <meta charset="utf-8">
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
   <style>
     /* to help render in an unconfusing way if CSS cannot be loaded */
-    #mobile-navigation {
-      display: none;
-    }
+    #mobile-navigation {  display: none; }
   </style>
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300|Open+Sans:300|Open+Sans+Condensed:300">
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> 
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400|Open+Sans:300|Open+Sans+Condensed:300" /> 
+  <link rel="stylesheet" type="text/css" href="/css/jquery.toc-scroll.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
 
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <!-- Bootstrap: Latest compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/jquery.toc.js"></script> <!-- https://github.com/nghuuphuoc/tocjs -->
+  <script type="text/javascript" src="/js/anchor.min.js"></script> <!-- https://www.bryanbraun.com/anchorjs/ -->
 
 </head>
 
 <body>
 
 	<nav>{% include /menu.html %}</nav>
-
-	<hr />
 	
-	{{ content }}
+	<div id="pageContainer">
+		{{ content }}
+	</div>
+	
+	{% include /footer.html %}
+	
+	
+	
+	
+	<script type="text/javascript">
+
+		// call anchorjs to add anchor tags. not a jquery plugin	
+		anchors.options.placement = 'left';
+		anchors.add('h1');
+		anchors.add();
+
+		$(document).ready(function() {
+
+			// generate toc using tocJS
+			$('#toc').width($('#toc').parents().width()); // set toc width
+			$('#toc').toc({
+				elementClass: 'toc',
+				ulClass: 'nav',
+				heading: 'Contents'
+			});
+
+			// call jquery scrollspy() on toc
+			$('body').scrollspy({ target: '#toc' });
+
+			// scroll then fix toc (https://codepen.io/anon/pen/RZreNN)
+			$(window).scroll(function() 
+			{
+				var verticalOffset = 30;
+				var fadeInDelay = 300;
+				var scrollAfterElement = $('nav');
+				
+				var scrollPos = $(this).scrollTop();								
+				if (scrollPos > scrollAfterElement.outerHeight(true) + verticalOffset - 10) {
+					//$('#toc').fadeIn(fadeInDelay);
+					$('#toc').css({'position':'fixed','top':verticalOffset+'px'});
+				} else {
+					//$('#toc').hide();
+					$('#toc').css({'position':'static','top':verticalOffset+'px'});
+				}
+			});
+			
+			// thanks https://stackoverflow.com/questions/14804941/how-to-add-smooth-scrolling-to-bootstraps-scroll-spy-function
+			$(".toc ul li a[href^='#']").on('click', function(e) 
+			{
+				// prevent default anchor click behavior
+				e.preventDefault();
+
+				// animate
+				$('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300, function()
+				{	   
+					// when done, add hash to url (default click behaviour)
+					window.location.hash = this.hash;
+				});
+			});
+
+		});
+		
+	</script>
 
 </body>
 </html>
