@@ -15,4 +15,12 @@ My reasoning for writing this website is partly from selfishness, trying to lear
 
 Feel free to use this site as a reference, guide or just for your interest. Please always cross-reference important information as human error is always possible.
 
-## 
+## Website contents
+
+ - [Energy management](energy-management)
+   - [Energy units](energy-units)
+ - [Energy efficiency](energy-efficiency)
+   - [Lighting](lighting)
+ - [Energy generation](energy-generation)
+   - [Solar PV](Solar-PV)
+   
