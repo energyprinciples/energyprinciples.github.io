@@ -1,7 +1,7 @@
 
 ---
 layout: collection
-title: Energy Generation Introduction
+title: Solar PV
 permalink: /energy-generation/solar-pv
 ---
 
