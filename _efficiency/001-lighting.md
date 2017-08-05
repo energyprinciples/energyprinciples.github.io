@@ -139,8 +139,8 @@ Please also note that better controls should always be considered, whether incre
 
 # Lighting glossary
 
-* Lamp = the light source, often called a bulb
-* Luminaire = the light fitting/fixture
+* Lamp = the light source, often called a bulb or tube
+* Luminaire = the light fitting or fixture
 * Ballast = often called the choke = part of a fuorescent light, causing the
 * Lighting intensity (lux levels) = lighting level on a surface
 *   `Lux=lm/m2`
@@ -158,9 +158,9 @@ Please also note that better controls should always be considered, whether incre
 
 # Common questions
 
-## Are LEDs worth it?
+## Are LEDs worth installing?
 
-LEDs are an excellent energy efficient form of lighting and they can look great visually as well as earning you environmental brownie-points.
+LEDs are an excellent energy efficient form of lighting. They can look great visually as well as earning you environmental brownie-points.
 
 In reality, it is only economically worth changing your current lighting for LEDs if you use your lighting sufficiently. If you don't use your lighting that regularly you may not see a return on investment for a very long time. 
 
@@ -174,12 +174,12 @@ So, It is really important to look at your current lighting energy usage versus 
 
 In short, yes. 
 
-In more depth, T5 fluorescent lamps are XXXXXX % more efficient that T8 lamps and are XXX% more efficient that T12 lamps. Replacing T5 lamps for LEDs will reduce energy consumption in a like-for-like situation; however, this is generally not seemed to be particularly economically beneficial at this point in time, because they are still relatively quite efficient.
+In more depth, T5 fluorescent lamps are XXXXXX % more efficient than T8 lamps and are XXX% more efficient that T12 lamps. Replacing T5 lamps for LEDs will reduce energy consumption in a like-for-like situation; however, this is generally not particularly economically beneficial at this point in time, because they are still relatively quite efficient.
 
 ## What do I need to consider when installing new lights
 
  - Is your current lighting solution suitable for the environment? Does it need to change?
- - Should you re-locate some lamps fom some areas that could do with less lighting to areas that require task lighting?
+ - Should you re-locate some lamps fom some areas that could do with less lighting, to areas that require task lighting?
  - Do you need to increase or decrease the lux levels in any areas?
  - Are PIR or lux level sensors suitable to be installed?
  - Do you need to change the lighting zoning? Could you improve lighting control through altering the manual switches?
@@ -187,4 +187,4 @@ In more depth, T5 fluorescent lamps are XXXXXX % more efficient that T8 lamps an
 
 ## How do I install LEDs? (non technical)
 
-Get a quote!! If you are really interested in changing your lights for LED, just aproach a couple suppliers and see what type of installation they suggest. It is important to be able to compare like-with-like, so make sure that you ask them to give you the predicted energy savings and all of the assumptions used. That way you can make an imformed decision.
+Get a quote!! If you are really interested in changing your lights for LED, just aproach a couple suppliers and see what type of installation they suggest. It is important to be able to compare like-with-like, so make sure you ask them to give you the predicted energy savings and all of the assumptions used. That way you can make an informed decision.
