@@ -1,5 +1,11 @@
 
-Solar PV
+---
+layout: collection
+title: Energy Generation Introduction
+permalink: /energy-generation/intro
+---
+
+# {{page.title}}
 
 Solar photovoltaics (PV) are one of the most common forms of energy generation options for organisations and they provide a chance to become self-sufficient.
 
