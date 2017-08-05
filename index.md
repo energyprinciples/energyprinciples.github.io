@@ -20,7 +20,7 @@ Feel free to use this site as a reference, guide or just for your interest. Plea
  - [Energy management](energy-management)
    - [Energy units](energy-units)
  - [Energy efficiency](energy-efficiency)
-   - [Lighting](lighting)
+   - [Lighting](energy-efficiency/lighting)
  - [Energy generation](energy-generation)
-   - [Solar PV](Solar-PV)
+   - [Solar PV](energy-generation/solar-pv)
    
