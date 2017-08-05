@@ -30,7 +30,7 @@ There are four different types of light output:
 Incandescnent lamps are based on electricity passing through a small filament, creating light and, as a side-product, heat.
 The two most common types of incandescent lamps are tungsten bulbs and hallogens.
 
-*Tungsten bulbs* are generally quite inefficient, wasting a lot of energy through heat. They also don't have a particularly long life span. They often darken with time, due to evaporated tungsten condensing on the inner surface of the glass. Basically, these should becomewww.theguardian.com/money/2017/aug/05/buy-to-let-landlady-13-years a thing of the past.
+*Tungsten bulbs* are generally quite inefficient, wasting a lot of energy through heat. They also don't have a particularly long life span. They often darken with time, due to evaporated tungsten condensing on the inner surface of the glass. Basically, these should become a thing of the past.
 
 *Halogen lamps* contain a filament within a halogen gas, which increases the lifetime of the bulb and precents dthe darkening of the bulb. They can operate at a slightly higher temperatures and as a result are better in confined spaces and are usually qute smal in size.
 
