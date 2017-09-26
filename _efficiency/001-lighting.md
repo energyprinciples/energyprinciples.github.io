@@ -18,7 +18,7 @@ To look at the benefits of replacing your lights, one of the first things you ne
 
 # Types of lamp
 
-There are four different types of light output:
+There are four different types of lamp:
 
 1.	[Incandescent – tungsten bulbs + halogens](#1-incandescent-lamps)
 2.	[Discharge – fluorescent + metal halide etc.](2-discharge-lamps)
@@ -32,15 +32,20 @@ The two most common types of incandescent lamps are tungsten bulbs and hallogens
 
 *Tungsten bulbs* are generally quite inefficient, wasting a lot of energy through heat. They also don't have a particularly long life span. They often darken with time, due to evaporated tungsten condensing on the inner surface of the glass. Basically, these should become a thing of the past.
 
-*Halogen lamps* contain a filament within a halogen gas, which increases the lifetime of the bulb and precents dthe darkening of the bulb. They can operate at a slightly higher temperatures and as a result are better in confined spaces and are usually qute smal in size.
+*Halogen lamps* contain a filament within a halogen gas, which increases the lifetime of the bulb and prevents the darkening of the bulb. They can operate at slightly higher temperatures and as a result are better in confined spaces and are usually qute small in size. 1,700-2,500 hours lamp life.
 
 ## 2. Discharge lamps
 
-There are several types of dischage lamps. Thes include fluorescent lamps, mercury vapour lamps, metal halide lamps, low pressure sodium lamps and SONs.
+There are several types of dischage lamp. They include fluorescent lamps, mercury vapour lamps, metal halide lamps, low pressure sodium lamps and 'SONs'.
 
-Compact fluorescents you often find in the home and generally consist of some sort of tube-based lamp.Common types include
+*Compact fluorescents* you often find in the home and generally consist of some sort of tube-based lamp. Common types include:
 
-Fluorescent tubes are very common in offices and work spaces. 
+[insert pics]
+
+
+*Fluorescent tubes* are very common in offices and work spaces: 
+
+[insert pics]
 
 *instert table of typical fluorescent lamp shapes and sizes*
 
@@ -54,17 +59,18 @@ Tube Name | Size
 `T5` | `0.5 inch`
 {: .table }
 
-> `T5` have a higher light intensity than `T8` and need a higher heat to give best light output (lumens), and you occasionally need to heat the `T5` fitting as a result due to kinetic theory.
+> `T5` have a higher light intensity than `T8` and need a higher heat to give best light output (lumens), and you occasionally need to heat the `T5` fitting as a result.
 
-Fluorescent tubes have a triphosphor and a phosphor coating…
+Fluorescents lamps can have a lamp life between 10,000-45,000 hours, not including ballast life.
 Ballasts = choke in US 
 Ballasts control the electricity going in to the fluorescent tube. They often use an additional 10% of electricity on top of the lamp wattage...    can have magnetic and electronic ballasts. Electronic ballasts....
 
-Metal halides
+*Metal halides* are a type of high intensity discharge (HID) lamp. They tend to have a good quality white light, close to daylight frequency, and relatively good efficiency. They can be used outside sa street lamps and football pitches as well as inside as high-bay lamps. Their main issues include cost and increased light pollution. 20,000 hourse lamp life.
 
-Low pressure sodium lamps
+*Low pressure sodium lamps* are the traditional yelowy-orange street lamp that are occasionally used indoors as well. The are energy efficiency, but have a poor Colour Rendering Index (CRI). Their lumen output does not drop with age (as LEDs and incandescents do) but sodium is flammable in air so their disposal has to be done carefully. 18,000 hours lamp life.
 
-SON lamps are
+*SON* lamps are also called high pressure sodium lamps. The have the same yellowy-orange tinge, but have longer operational hours and are smaller in size when compared to a low pressure sodium lamp. Te ballast tends to b inneficient and affests the efficiency of the lamp. 24,000 hours lamp life.
+
 
 ## 3. Induction lamps
 
@@ -76,7 +82,7 @@ LEDs are the latest rage in terms of lighting and energy efficicency, more gener
 
 LED is an abbreviation of Light Emitting Diode. This means that 
 
-LEDs typically last 30,000 hours to 50,000 hours, assuming they are instaled properly. If you do get LEDs installed it might be worth requesting a warranty period that reflects the predicted lifetime of the lamp.
+LEDs typically last 30,000 hours to 50,000 hours, some up to 100,000 hours depending on lamp type assuming they are instaled properly. If you do get LEDs installed it might be worth requesting a warranty period that reflects the predicted lifetime of the lamp.
 
 *Insert table of common wattages*
 
@@ -155,6 +161,10 @@ Please also note that better controls should always be considered, whether incre
 * Colour Rendering Index (CRI) = 
 * Insert examples of different lights…
 * See slide 8 for the W/m2 average power density
+
+# Useful links:
+* http://www.edisontechcenter.org/
+
 
 # Common questions
 
