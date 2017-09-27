@@ -104,24 +104,26 @@ These are the most commonly used in commercial settings
 ## Lux level sensors
 
 
-# Suggested lux levels according to Building regulations, part L???
+# Generally suggested lux levels 
 
--	Office – 500 lux
--	Computer room – 300 lux
--	
+-	Office involving drawing and hand-writing – 500 lux
+-	Office mostly including computers – 300 lux
+- Manufacturing sites - 300-750 lux
+- Inspection areas, depending on precision - 1000-2000 lux
+- showrooms and retail - 300-750 lux
+- Corridors and toilets - 200 lux
+- loading bays and stores - 100 lux
+
 If staff are getting headaches, should install a warmer colour temperature bulb – more yellow.
 
-# Use of daylight
-
--	Need ownership of rooms/spaces
--	Lux level is important=level of light
--	Occupancy hours is important
--	Check out new CIBSE guide on office lighting
-
-# Importance of lighting design
-
-
-
+# The importance of lighting design
+If you don't have a well-thought out lighting system then you may be lighting areas that don't need to be lit and not achieving high enough lux levels where required. Key things to think about:
+ - Lights should be positioned above work areas where light is needed.
+ - Lights don't need to be positioned above shelves, printers, windows and doors etc.
+ - You will receive more light in an area if it is directed where required i.e. not the wall.
+ - If you want to create a nice ambiance with no glare then lighting a wall is nice, but not hugely efficient.
+ - Lights can be lowered closer to the working area to deliver more light.
+ 
 # Calculating lighting energy savings
 
 Once you know the type of lamp you have, and you have an idea of how you would like to improve the efficiency of your lighting you can estimate what you might potentially use. 
