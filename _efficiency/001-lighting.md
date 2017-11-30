@@ -47,9 +47,6 @@ There are several types of dischage lamp. They include fluorescent lamps, mercur
 
 [insert pics]
 
-*instert table of typical fluorescent lamp shapes and sizes*
-
-
 ### Table of fluorescent tubes
 
 Tube Name | Size
@@ -62,8 +59,21 @@ Tube Name | Size
 > `T5` have a higher light intensity than `T8` and need a higher heat to give best light output (lumens), and you occasionally need to heat the `T5` fitting as a result.
 
 Fluorescents lamps can have a lamp life between 10,000-45,000 hours, not including ballast life.
-Ballasts = choke in US 
-Ballasts control the electricity going in to the fluorescent tube. They often use an additional 10% of electricity on top of the lamp wattage...    can have magnetic and electronic ballasts. Electronic ballasts....
+Ballasts = choke in US.
+Ballasts control the electricity going in to the fluorescent tube. They often use an additional 10% of electricity on top of the lamp wattage. There are both electronic and agnetic types of ballast:
+
+Magnetic | Electronic
+---- | ----
+`Less efficient` | `More efficient` 
+`Older and can have a flicker` | `Newer and have a reduced flicker` 
+`Don't like constant switching on and off` | `Better on/off control and dimmable`
+`Take a while to warm up` | `0.5 inch`
+`Highly affect power factor` | `Regulate power so power factor not affected`
+`Cheaper` | `More expensive`
+`You see a rainbow affect when you hold a mobile phone camera up to them | Looks normal when you hold a mobile phone camera up to them`
+{: .table }
+
+The ballast on failed fluorescent lamps will continuously try to excite the gas and will therefore using energy!
 
 *Metal halides* are a type of high intensity discharge (HID) lamp. They tend to have a good quality white light, close to daylight frequency, and relatively good efficiency. They can be used outside sa street lamps and football pitches as well as inside as high-bay lamps. Their main issues include cost and increased light pollution. 20,000 hourse lamp life.
 
@@ -74,13 +84,13 @@ Ballasts control the electricity going in to the fluorescent tube. They often us
 
 ## 3. Induction lamps
 
-*insert discussion and table of types*
+Indution lamps are not as efficienct as many of the lamps dicussed but have exceptionally long lifetimes. Induction lamps can last 60,000 hours, which is the equivalent of eight hours a day for twenty years. Therefore, if you need a lamp to last a long time due to poor access options or the requirement of long-term reliability (and LEDs are not suitable), then these might be worth looking into.
 
 ## 4. LED
 
 LEDs are the latest rage in terms of lighting and energy efficicency, more generally.
 
-LED is an abbreviation of Light Emitting Diode. This means that 
+LED is an abbreviation of Light Emitting Diode.
 
 LEDs typically last 30,000 hours to 50,000 hours, some up to 100,000 hours depending on lamp type assuming they are instaled properly. If you do get LEDs installed it might be worth requesting a warranty period that reflects the predicted lifetime of the lamp.
 
@@ -88,31 +98,44 @@ LEDs typically last 30,000 hours to 50,000 hours, some up to 100,000 hours depen
 
 # Lighting controls
 
-Controlling lighting, whether it is old inefficient lighting or new lighting can reduce energy consumption of a lighting system.
+Controlling lighting, whether it is old inefficient lighting or new lighting can greatly reduce the energy consumption of a lighting system, sometimes up to 80%. Getting it right can take some thought and understanding of how  an area is used to make use of the full potential of lighting controls. Here are a few things to think about and the potnetial solutions:
 
+Situation | Potential answer
+---- | ----
+`Are the lights being left on unnecesarily? | Movement, lux or timer sensors`
+`Are people frequently turning lights on and off? | Movement sensor`
+`Are lights being left on for security or safety reasons? | Movement sensor`
+`Is there often enough natural light? | Lux sensors and auto-dimmable lamps`
+`Do certain lights need to be on only when its dark outside? | Lux sensor or timer control`
+`Is a large area lit when only a small area is occupied? | Movement sensor or zoning with switches`
+`Do you have a fancy Bulding Management System (BMS)? | Zoning, timers, movement sensor incorperated into a safety feature`
+`Is it a corridor, store room or toilet? | Movement sensor`
+{: .table }
+
+Here is some more information about the controls that are available:
 
 ## Movement sensors
 
 There are a couple different types of movement sensors on the market, relying on movement to trigger a response. These include:
 -	Passive Infra Red (PIR) sensors
--	Ultrasonic – look up
+-	Ultrasonic
 -	Microwave sensors
-
-Passive Infra Red sensors
-These are the most commonly used in commercial settings
 
 ## Lux level sensors
 
 
-# Generally suggested lux levels 
+### Generally suggested lux levels 
 
--	Office involving drawing and hand-writing – 500 lux
--	Office mostly including computers – 300 lux
-- Manufacturing sites - 300-750 lux
-- Inspection areas, depending on precision - 1000-2000 lux
-- showrooms and retail - 300-750 lux
-- Corridors and toilets - 200 lux
-- loading bays and stores - 100 lux
+Situation | Sugested lux
+---- | ----
+`Office involving drawing and hand-writing | 500 lux`
+`Office mostly including computers | 300 lux`
+`Manufacturing sites | 300-750 lux`
+`Inspection areas, depending on precision | 1000-2000 lux`
+`Showrooms and retail | 300-750 lux`
+`Corridors and toilets | 200 lux`
+`Loading bays and stores | 100 lux`
+{: .table }
 
 If staff are getting headaches, should install a warmer colour temperature bulb – more yellow.
 
@@ -123,8 +146,9 @@ If you don't have a well-thought out lighting system then you may be lighting ar
  - You will receive more light in an area if it is directed where required i.e. not the wall.
  - If you want to create a nice ambiance with no glare then lighting a wall is nice, but not hugely efficient.
  - Lights can be lowered closer to the working area to deliver more light.
+ - Natural light from windows and roof pannels should be utilised and regularly cleaned.
  
-# Calculating lighting energy savings
+# How to calculate lighting energy savings
 
 Once you know the type of lamp you have, and you have an idea of how you would like to improve the efficiency of your lighting you can estimate what you might potentially use. 
 
@@ -149,7 +173,7 @@ Please also note that better controls should always be considered, whether incre
 
 * Lamp = the light source, often called a bulb or tube
 * Luminaire = the light fitting or fixture
-* Ballast = often called the choke = part of a fuorescent light, causing the
+* Ballast = often called the choke = part of a fuorescent light. Required to produce a large current to excite the fluoro gasses on start-up and also used to regulate current an voltage to improve harmonics fo the electrical system.
 * Lighting intensity (lux levels) = lighting level on a surface
 *   `Lux=lm/m2`
 * Lumens = light output
@@ -159,10 +183,9 @@ Please also note that better controls should always be considered, whether incre
 * Light output ratio= what you get out of the fitting
 * Luminous flux = light output ratio
 * Reflectance = what is reflected
-* Colour temperature = 
-* Colour Rendering Index (CRI) = 
-* Insert examples of different lights…
-* See slide 8 for the W/m2 average power density
+* Colour temperature = a description of whether a lamp is deemed 'warm' or 'cool'. Warm = <3300 Kelvin. Cool = >5300 Kelvin. Link to Table?
+* Colour Rendering Index (CRI) = accuracy by which a lamp can show surface colours. Link to table?
+
 
 # Useful links:
 * http://www.edisontechcenter.org/
