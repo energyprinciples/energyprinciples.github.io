@@ -47,7 +47,7 @@ There are several types of dischage lamp. They include fluorescent lamps, mercur
 
 [insert pics]
 
-### Table of fluorescent tubes
+*Table of fluorescent tubes*
 
 Tube Name | Size
 ---- | ----
@@ -70,10 +70,10 @@ Magnetic | Electronic
 `Take a while to warm up` | `0.5 inch`
 `Highly affect power factor` | `Regulate power so power factor not affected`
 `Cheaper` | `More expensive`
-`You see a rainbow affect when you hold a mobile phone camera up to them | Looks normal when you hold a mobile phone camera up to them`
+`You see a rainbow affect when you hold a mobile phone camera up to them` | `Looks normal when you hold a mobile phone camera up to them`
 {: .table }
 
-The ballast on failed fluorescent lamps will continuously try to excite the gas and will therefore using energy!
+>The ballast on failed fluorescent lamps will continuously try to excite the gas and will therefore using energy!
 
 *Metal halides* are a type of high intensity discharge (HID) lamp. They tend to have a good quality white light, close to daylight frequency, and relatively good efficiency. They can be used outside sa street lamps and football pitches as well as inside as high-bay lamps. Their main issues include cost and increased light pollution. 20,000 hourse lamp life.
 
@@ -102,14 +102,14 @@ Controlling lighting, whether it is old inefficient lighting or new lighting can
 
 Situation | Potential answer
 ---- | ----
-`Are the lights being left on unnecesarily? | Movement, lux or timer sensors`
-`Are people frequently turning lights on and off? | Movement sensor`
-`Are lights being left on for security or safety reasons? | Movement sensor`
-`Is there often enough natural light? | Lux sensors and auto-dimmable lamps`
-`Do certain lights need to be on only when its dark outside? | Lux sensor or timer control`
-`Is a large area lit when only a small area is occupied? | Movement sensor or zoning with switches`
-`Do you have a fancy Bulding Management System (BMS)? | Zoning, timers, movement sensor incorperated into a safety feature`
-`Is it a corridor, store room or toilet? | Movement sensor`
+`Are the lights being left on unnecesarily?` | `Movement, lux or timer sensors`
+`Are people frequently turning lights on and off?` | `Movement sensor`
+`Are lights being left on for security or safety reasons?` | `Movement sensor`
+`Is there often enough natural light?` | `Lux sensors and auto-dimmable lamps`
+`Do certain lights need to be on only when its dark outside?` | `Lux sensor or timer control`
+`Is a large area lit when only a small area is occupied?` | `Movement sensor or zoning with switches`
+`Do you have a fancy Bulding Management System (BMS)?` | `Zoning, timers, movement sensor incorperated into a safety feature`
+`Is it a corridor, store room or toilet?` | `Movement sensor`
 {: .table }
 
 Here is some more information about the controls that are available:
@@ -128,16 +128,16 @@ There are a couple different types of movement sensors on the market, relying on
 
 Situation | Sugested lux
 ---- | ----
-`Office involving drawing and hand-writing | 500 lux`
-`Office mostly including computers | 300 lux`
-`Manufacturing sites | 300-750 lux`
-`Inspection areas, depending on precision | 1000-2000 lux`
-`Showrooms and retail | 300-750 lux`
-`Corridors and toilets | 200 lux`
-`Loading bays and stores | 100 lux`
+`Office involving drawing and hand-writing` | `500 lux`
+`Office mostly including computers` | `300 lux`
+`Manufacturing sites` | `300-750 lux`
+`Inspection areas, depending on precision` | `1000-2000 lux`
+`Showrooms and retail` | `300-750 lux`
+`Corridors and toilets`` | 200 lux`
+`Loading bays and stores` | `100 lux`
 {: .table }
 
-If staff are getting headaches, should install a warmer colour temperature bulb – more yellow.
+>If staff are getting headaches, should install a warmer colour temperature bulb – more yellow.
 
 # The importance of lighting design
 If you don't have a well-thought out lighting system then you may be lighting areas that don't need to be lit and not achieving high enough lux levels where required. Key things to think about:
