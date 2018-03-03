@@ -9,7 +9,7 @@ markdown: kramdown
 # theme
 #theme: minima
 
-gems:
+plugins:
  - jekyll-redirect-from
 
 collections:
