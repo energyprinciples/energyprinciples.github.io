@@ -1,20 +1,52 @@
-<ul class="nav2">
+<nav class="navbar navbar-default" role="navigation">
 
-	<div class="box">
-		<div>Home</div>
-		<li><a href="/">Home</a></li>
-	</div>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>    
+    </div>
+    
+    <div class="navbar-collapse collapse">
+        <ul class="nav nav-justified">
+        <li><a href="#" class="navbar-brand"><img alt="Energy Principles" src="/images/energy_principles_f8f8f8_41.png"></a></li>
+        </ul>
+    </div>
+    
+</nav>
 
-	{% for collection in site.collections %}
-	<div class="box">
 
-		<div>Energy {{collection.label | capitalize}}</div>
-		
-		{% for doc in collection.docs %}
-			<li><a href="{{doc.url}}">{{doc.title}}</a></li>
-		{% endfor %}
-		
-	</div>
-	{% endfor %}
+<nav class="navbar navbar-default" role="navigation">
 
-</ul>
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img alt="Energy Principles" src="/images/energy_principles_f8f8f8_41.png">
+            </a>
+        </div>
+
+        <div id="navbar-main" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {% for collection in site.collections %}
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Energy {{collection.label | capitalize}}<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for doc in collection.docs %}
+                        <li><a href="{{doc.url}}">{{doc.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</nav>

@@ -10,7 +10,6 @@
   <title>{{ page.title }}</title>
 
   <meta name="description" content="{{ page.description }}">
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
   <style>
     /* to help render in an unconfusing way if CSS cannot be loaded */
@@ -47,62 +46,9 @@
 	{% include /footer.html %}
 	
 	
-	
-	
-	<script type="text/javascript">
-
-		// call anchorjs to add anchor tags. not a jquery plugin	
-		anchors.options.placement = 'left';
-		anchors.add('h1');
-		anchors.add();
-
-		$(document).ready(function() {
-
-			// generate toc using tocJS
-			$('#toc').width($('#toc').parents().width()); // set toc width
-			$('#toc').toc({
-				elementClass: 'toc',
-				ulClass: 'nav',
-				heading: 'Contents'
-			});
-
-			// call jquery scrollspy() on toc
-			$('body').scrollspy({ target: '#toc' });
-
-			// scroll then fix toc (https://codepen.io/anon/pen/RZreNN)
-			$(window).scroll(function() 
-			{
-				var verticalOffset = 30;
-				var fadeInDelay = 300;
-				var scrollAfterElement = $('nav');
-				
-				var scrollPos = $(this).scrollTop();								
-				if (scrollPos > scrollAfterElement.outerHeight(true) + verticalOffset - 10) {
-					//$('#toc').fadeIn(fadeInDelay);
-					$('#toc').css({'position':'fixed','top':verticalOffset+'px'});
-				} else {
-					//$('#toc').hide();
-					$('#toc').css({'position':'static','top':verticalOffset+'px'});
-				}
-			});
-			
-			// thanks https://stackoverflow.com/questions/14804941/how-to-add-smooth-scrolling-to-bootstraps-scroll-spy-function
-			$(".toc ul li a[href^='#']").on('click', function(e) 
-			{
-				// prevent default anchor click behavior
-				e.preventDefault();
-
-				// animate
-				$('html, body').animate({ scrollTop: $(this.hash).offset().top }, 300, function()
-				{	   
-					// when done, add hash to url (default click behaviour)
-					window.location.hash = this.hash;
-				});
-			});
-
-		});
-		
-	</script>
+    <script>
+    
+    </script>
 
 </body>
 </html>
