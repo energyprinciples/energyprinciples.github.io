@@ -10,6 +10,7 @@ Almost everyone can consider generating energy, or at least storing energy to be
 
 For example:
 
+Area | Technology
 ---- | ----
 Roof | Solar PV, Solar thermal
 Building | Air source heat pump, CHP, Biofuel
