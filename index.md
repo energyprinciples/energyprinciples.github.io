@@ -21,6 +21,18 @@ Feel free to use this site as a reference, guide or just for your interest. Plea
    - [Energy units](energy-units)
  - [Energy efficiency](energy-efficiency)
    - [Lighting](energy-efficiency/lighting)
+   - Behaviour change
+   - Lighting
+   - Heating
+   - Air conditioning
+   - Equipment
+   - Motors and drives
+    - Fans
+    - Pumps
+   - Refrigeration
+   - Ventilation
+   - Insualtion 
+   - Controls
  - [Energy generation](energy-generation)
    - [Solar PV](energy-generation/solar-pv)
    
