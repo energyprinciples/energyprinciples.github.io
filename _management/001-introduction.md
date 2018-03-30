@@ -44,3 +44,5 @@ This section looks at a broad range of energy monitoring and energy reduction ta
  - Water management
  - Waste management
  - Green buildings
+ 
+ Over time, all of these topics will be discussed, so keep tuned for more information on the above topics.
