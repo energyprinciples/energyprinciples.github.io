@@ -18,11 +18,29 @@ Feel free to use this site as a reference, guide or just for your interest. Plea
 ## Website contents
 
  - [Energy management](energy-management)
-   - [Energy units](energy-units)
+   - Energy management roles
+   - Bill validation
+   - Data analysis
+    - Units conversions
+   - Energy auditing
+   - Financial analysis
+   - Business case development
+  - Energy billing and analysis
+  - How to read an energy bill
+  - Recording energy usage
+  - Triad, DUOS, TUNOS etc...
+  - Half hourly data
+  - Analysing energy data
+    - Key things that should be investigated
+  - Reducing energy bills
+  - Designing a energy management plan
+  - Manufacturing processes
+  - Water management
+  - Waste management
+  - Green buildings
  - [Energy efficiency](energy-efficiency)
-   - [Lighting](energy-efficiency/lighting)
    - Behaviour change
-   - Lighting
+   - [Lighting](energy-efficiency/lighting)
    - Heating
    - Air conditioning
    - Equipment
@@ -34,5 +52,20 @@ Feel free to use this site as a reference, guide or just for your interest. Plea
    - Insualtion 
    - Controls
  - [Energy generation](energy-generation)
+   - The National Grid energy generation
+   - Energy distribution
    - [Solar PV](energy-generation/solar-pv)
+   - Solar thermal
+   - Wind power
+   - Hydro power
+   - Heat pumps
+   - Geothermal
+   - Wave and tidal power
+   - Biomass
+   - Biofuel
+   - CHP
+   - Heat recovery
+   - Evaporative cooling
+   - Batteries
+   - Off-grid systems
    
