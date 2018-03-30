@@ -13,14 +13,13 @@ For example:
 Area | Technology
 ---- | ----
 Roof | Solar PV, Solar thermal
-Building | Air source heat pump, CHP, Biomass
+Building | Air source heat pump, CHP, Biomass, Batteries
 Land | Solar PV, Solar thermal, Wind, Ground source heat pump, Geothermal
 River | Hydro
 Lake | Water source heat pump
 Sea | Wave power, Tidal power, Water source heat pump
 Waste food | Anaerobic digestion
 Waste heat | CHP, Evaporative cooling, Heat recovery
-Space | Batteries
 
 
 This section looks at all technologies that are involved with energy generation of some kind, or storage, including:
@@ -40,4 +39,6 @@ This section looks at all technologies that are involved with energy generation 
  - Evaporative cooling
  - Batteries
  - Off-grid systems
+ 
+ All of these topics will be covered as soon as I have the time, so please stay tuned!
 
