@@ -157,8 +157,11 @@ This should involve a mixture of more efficient lighting and better control.
 Calculations look at: type of lamp, wattage, number of lamps and running hours.
 
 *Basic calculation rationale:*
+
 1)'Current Annual Usage (kWh/year)= no. Lamps x Lamp Rating (W) x Annual Running Hours (h) / 1000'
+
 2)'Propoesd Annual Usage (kWh/year) = proposed no. Lamps x Lamp Rating (W) x Annual Running Hours (h) * / 1000'
+
 3)'Energy savings (kWh/year) = 1 - 2'
 
 *Basic Lighting Energy Saving Calculator:*
@@ -175,9 +178,9 @@ Please also note that better controls should always be considered, whether incre
 * Luminaire = the light fitting or fixture
 * Ballast = often called the choke = part of a fuorescent light. Required to produce a large current to excite the fluoro gasses on start-up and also used to regulate current an voltage to improve harmonics fo the electrical system.
 * Lighting intensity (lux levels) = lighting level on a surface
-*   `Lux=lm/m2`
+* Lux = lm/m2
 * Lumens = light output
-* Efficacy = `lumens/watts`
+* Efficacy = lumens / watts
 * Light Intensity = how far the light goes
 * Light density = amount that gets reflected into your eyes (cd/m2)
 * Light output ratio= what you get out of the fitting
@@ -187,7 +190,7 @@ Please also note that better controls should always be considered, whether incre
 * Colour Rendering Index (CRI) = accuracy by which a lamp can show surface colours. Link to table?
 
 
-# Useful links:
+# Useful links
 * http://www.edisontechcenter.org/
 
 
