@@ -63,7 +63,7 @@ It is far more important to ensure that there is no shade on the solar panels
 
 # How often should I clean my Solar panels?
 
-Every year ideally, preferably in the spring, to ensure that any old leaves are cleared and the array is nice and sparking ready for the summer months when solar yield will be much greater.
+Every year ideally, preferably in the spring, to ensure that any old leaves are cleared and the array is nice and sparkling ready for the summer months when solar yield will be much greater.
 
 # How much solar PV can I fit on my roof?
 
