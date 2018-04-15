@@ -5,6 +5,7 @@ layout: page
 # Energy Principles
 
 ## About
+
 Energy Principles is a website about what you can do to save energy and money.
 
 I’ve been working in this field for around three years, with a background in science. I pretty much learnt all the contents of this website from scratch in this time.
