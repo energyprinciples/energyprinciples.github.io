@@ -20,6 +20,7 @@ Lake | Water source heat pump
 Sea | Wave power, Tidal power, Water source heat pump
 Waste food | Anaerobic digestion
 Waste heat | CHP, Evaporative cooling, Heat recovery
+{: .table }
 
 
 This section looks at all technologies that are involved with energy generation of some kind, or storage, including:
